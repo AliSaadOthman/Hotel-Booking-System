@@ -1,0 +1,3 @@
+C:\Work\Freelance Projects\Hotel Booking System\Backend\obj\Debug\Backend.njsproj.AssemblyReference.cache
+C:\Work\Freelance Projects\Hotel Booking System\Backend\obj\Debug\Backend.njsproj.CoreCompileInputs.cache
+C:\Work\Freelance Projects\Hotel Booking System\Backend\bin\Microsoft.NodejsTools.WebRole.dll

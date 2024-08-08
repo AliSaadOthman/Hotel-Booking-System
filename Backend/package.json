@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "Backend",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "awilix": "^10.0.2",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "sequelize": "^6.37.3",
+    "serve-favicon": "^2.3.0",
+    "tedious": "^18.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "sequelize-cli": "^6.6.2"
+  },
+  "eslintConfig": {}
+}
