@@ -29,24 +29,44 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".env" />
     <Content Include=".eslintrc.json" />
+    <Content Include=".sequelizerc" />
+    <Content Include="APIs\Controllers\authController.js" />
+    <Content Include="APIs\Controllers\roleController.js" />
+    <Content Include="APIs\Repositories\authRepo.js" />
+    <Content Include="APIs\Repositories\roleRepo.js" />
+    <Content Include="APIs\Routes\authRoutes.js" />
+    <Content Include="APIs\Routes\roleRoutes.js" />
     <Content Include="app.js" />
-    <Content Include="config\config.json" />
+    <Content Include="db\config\config.cjs" />
     <Content Include="container.js" />
+    <Content Include="APIs\Controllers\userController.js" />
+    <Content Include="db\migrations\20240809102749-user-created.cjs" />
+    <Content Include="db\migrations\20240811075834-role-created.cjs" />
+    <Content Include="db\migrations\20240811080514-credential-created.cjs" />
+    <Content Include="db\models\Identity.js" />
+    <Content Include="db\models\Role.js" />
+    <Content Include="db\models\User.js" />
     <Content Include="libman.json" />
-    <Content Include="models\index.js" />
-    <Content Include="Routes\index.js" />
-    <Content Include="Routes\users.js" />
+    <Content Include="db\models\index.js" />
+    <Content Include="APIs\Repositories\userRepo.js" />
+    <Content Include="APIs\Routes\userRoutes.js" />
+    <Content Include="Middleware\AuthMiddleware.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="config\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="migrations\" />
-    <Folder Include="models\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Routes\" />
+    <Folder Include="db\config\" />
+    <Folder Include="APIs\Controllers\" />
+    <Folder Include="db\migrations\" />
+    <Folder Include="db\models\" />
+    <Folder Include="db\" />
+    <Folder Include="db\seeders\" />
+    <Folder Include="APIs\" />
+    <Folder Include="APIs\Repositories\" />
+    <Folder Include="APIs\Routes\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
